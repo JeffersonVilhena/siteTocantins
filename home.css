@@ -36,11 +36,16 @@ nav li a {
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif;
     font: size 22px;
+    
 }
 
 nav a:hover{
     color: #a7a4e8;
-    
+    text-decoration: underline;
+}
+
+nav a:active{
+    color: #ff0202;
 }
 
 .imagensMain li {
@@ -51,6 +56,36 @@ nav a:hover{
     margin-top: 8px;
     text-align: center;
 }
+
+
+
+.antRodape {
+    background-image: url(img/imagenRodape.png);
+    height: 270px;
+    width: 100%;
+}
+
+.ligue{
+    
+    font-family:Verdana,Helvetica,Arial,sans-serif;
+    font-size:  32px;
+    font-weight: bold;
+    padding: 30px 0;
+    color: #ffffff;
+    text-align: center;
+    line-height:50px
+    
+}
+
+ .telefone {
+    font-family:Verdana,Helvetica,Arial,sans-serif;
+    font-size:  62px;
+    font-weight: bold;
+    padding: 35px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
 
 footer {
     background-color:  rgb(100, 100, 242);
