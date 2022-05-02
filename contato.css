@@ -1,0 +1,40 @@
+img {}
+
+main {
+    width: 940px;
+    margin: 40px auto;
+}
+
+
+
+form label, legend {
+    padding:8px 0;
+    display: block;
+    font-size:20px;
+    font-weight:bold;
+    color:rgb(100, 100, 242);
+}
+
+.inputPadrao {
+    width: 50%;
+    padding: 15px 5px;
+}
+
+.enviar {
+    font-weight:bold;
+    font-size:18px;
+    width: 50%;
+    padding: 15px 5px;
+    color:white;
+    background-color:rgb(100, 100, 242);
+    border: none;
+    transition:1s all;
+    cursor: pointer;
+    border-radius:5px;
+}
+
+.enviar:hover {
+    transform: scale(1.2);
+   
+}
+
