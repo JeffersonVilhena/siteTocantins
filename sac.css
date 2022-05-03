@@ -45,12 +45,12 @@ form label, legend {
 .delicia {
     width:50%;
     float:right;
+    padding:10px;
 }
 
 section p{
     font-size: 3.1em;
-    margin: 60px 20px;
-    
+    margin: 30px 20px;
     text-align: center;
     color:rgb(100, 100, 242);
 }
