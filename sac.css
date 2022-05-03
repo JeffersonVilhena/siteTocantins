@@ -16,7 +16,6 @@ section p {
 }
 
 form label, legend {
-   
     padding:8px 0;
     display: block;
     font-size:20px;
@@ -53,9 +52,12 @@ form label, legend {
 }
 
 section p{
-    font-size: 3em;
-    margin: 30px 20px;
+    font-size: 2.6em;
+    line-height:1.3em;
+    color:rgb(100, 100, 242);
+    font-weight: bold;
     text-align: center;
     padding:right 20px;
-    color:rgb(100, 100, 242);
+    margin: 30px 20px;
+    
 }
