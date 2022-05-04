@@ -1,0 +1,50 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color:rgb(100, 100, 242);
+}
+
+section {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imgEmpresa{
+    float: left;
+    margin: 10px;
+    width: 50%;
+    
+}
+
+h2 {
+    font-size:2em;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+p{
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.exemple-item{
+    display: inline-block;
+    font-size:3em;
+    width: 33.333%;
+    height: 150px;
+    clear: left;
+}
+
+
+.imgVisao {
+    float: right;
+    margin: 10px;
+    width: 50%;
+    margin-top:50px
+}
+
+.visaoTexto{
+    width: 50%;
+}
+
+

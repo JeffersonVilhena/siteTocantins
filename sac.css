@@ -7,20 +7,14 @@ main {
     margin: 40px auto;
 }
 
-section img {
-    clear: left;
-}
-
-section p {
-    font-size:20px
-}
 
 form label, legend {
-    padding:8px 0;
+    padding:20px 0;
     display: block;
     font-size:20px;
     font-weight:bold;
     color:rgb(100, 100, 242);
+    clear:left;
 }
 
 .inputPadrao {
@@ -47,8 +41,8 @@ form label, legend {
 
 .delicia {
     width:50%;
-    float:right;
-    padding:10px;
+    margin: 0 10 0 0;
+    float:left; 
 }
 
 section p{
@@ -57,7 +51,5 @@ section p{
     color:rgb(100, 100, 242);
     font-weight: bold;
     text-align: center;
-    padding:right 20px;
-    margin: 30px 20px;
-    
+     
 }
