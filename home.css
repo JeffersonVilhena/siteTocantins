@@ -18,6 +18,10 @@ header p{
     margin:0 auto;
 }
 
+.seja-bem-vindo {
+    font-family: 'Inter', sans-serif;
+}
+
 nav {
     position: absolute;
     top: 50px;
