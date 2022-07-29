@@ -1,8 +1,8 @@
-header {
+/*header {
     padding: 20px 0;
     background-color: rgb(100, 100, 242);
 }
-
+/*
 header p{
     margin-top:25px;
     text-align: center;
@@ -47,7 +47,7 @@ nav a:hover{
     color: #a7a4e8;
     text-decoration: underline;
 }
-
+*/
 nav a:active{
     color: #ff0202;
 }

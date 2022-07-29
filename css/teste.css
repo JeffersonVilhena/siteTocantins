@@ -1,0 +1,34 @@
+.cabecalho {
+    background-color:red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho__lista {
+    display: flex;
+}
+
+.cabecalho__itemLista {
+    margin-left:1rem;
+}
+
+.cabecalho__linkLista {
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}
+
+@media(max-width:768px) {
+    .cabecalho{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .cabecalho__lista {
+        display: flex;
+        flex-direction: column; 
+    }
+    
+
+}

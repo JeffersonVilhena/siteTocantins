@@ -1,0 +1,43 @@
+.main_descricao {
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    background: rgb(100, 100, 242);
+    color:#ffffff;
+    font-weight: bold;
+    font-size:1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main__sejaBemVindo {
+    margin:1rem;
+    line-height:2rem;
+}
+
+.main__imagem{ 
+    display:flex;
+    width:100%;
+    justify-content: center;
+    margin-top: .5rem;
+}
+
+@media(max-width:768px){
+    .main__imagemConteudo{
+        display:flex;
+        flex-direction: column;
+        width: 100%; 
+    }
+
+    .main_imagem-individual {
+        margin-top: .1rem;
+    }
+
+    .telefone {
+        font-size:3rem;
+    }
+}
+
+
+
+
+
