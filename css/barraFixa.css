@@ -1,0 +1,36 @@
+.barraFixa {
+    padding-top:.5rem;
+    position: fixed;
+    display:flex;
+    width:100%;
+    height: 40px;
+    justify-content:space-around;
+    align-items: baseline;
+    background-color: rgb(100, 100, 242);
+}
+
+.barraFixa__lista {
+    display:flex;
+    align-items:baseline;
+    
+}
+
+.barraFixa__Itemlista {
+    margin-left: 1rem;
+}
+
+.barraFixa__Itemlista-telefone{
+    font-size:2rem;
+    font-weight:bold;
+    text-decoration: none;
+    text-transform:uppercase;
+    color:white;
+    font-family: Verdana,Helvetica,Arial,sans-serif
+}
+
+
+.barraFixa__redesSociais {
+    width:27px;
+}
+
+
