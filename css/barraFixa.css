@@ -6,7 +6,7 @@
     height: 40px;
     justify-content:space-around;
     align-items: baseline;
-    background-color: rgb(100, 100, 242);
+    background-color: var(--azul-claro);
 }
 
 .barraFixa__lista {
@@ -24,7 +24,7 @@
     font-weight:bold;
     text-decoration: none;
     text-transform:uppercase;
-    color:white;
+    color:var(--branco-fonte);
     font-family: Verdana,Helvetica,Arial,sans-serif
 }
 
@@ -32,5 +32,13 @@
 .barraFixa__redesSociais {
     width:27px;
 }
+
+@media (max-width: 768){
+    .barraFixa__Itemlista-telefone{
+        font-size: 1.5rem;
+    }
+}
+
+
 
 

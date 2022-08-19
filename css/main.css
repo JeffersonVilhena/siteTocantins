@@ -2,8 +2,8 @@
     display:flex;
     justify-content:center;
     text-align:center;
-    background: rgb(100, 100, 242);
-    color:#ffffff;
+    background: var(--azul-claro);
+    color:var(--branco-fonte);
     font-weight: bold;
     font-size:1.2rem;
     font-family:Arial, Helvetica, sans-serif;
