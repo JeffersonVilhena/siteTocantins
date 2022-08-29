@@ -1,5 +1,5 @@
 .cabecalho {
-    padding-top: 40px;
+    padding-top: 35px;
     display:flex;
     width:100%;
     justify-content:space-around;
@@ -8,7 +8,7 @@
 }
 
 .cabecalho__itens{
-    margin-top: 1rem;
+    margin-top: .8rem;
     display:flex;
     width:100%;
     justify-content:space-between;
@@ -16,8 +16,9 @@
     background-color: var(--azul-claro);
 }
 
-.cabecalho__logo {
- margin: 1rem 0rem .50rem;
+.cabecalho__logo{
+ margin: 1rem 0rem .40rem;
+ width:15rem;
 }
 
 .cabecalho__lista {

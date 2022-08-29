@@ -10,16 +10,18 @@
 }
 
 .main__sejaBemVindo {
-    margin:1rem;
-    line-height:2rem;
+    margin:.5rem;
+    line-height:1.5rem;
 }
 
 .main__imagem{ 
     display:flex;
     width:100%;
     justify-content: center;
-    margin-top: .5rem;
+    margin-top: .2rem;
 }
+
+
 
 @media(max-width:768px){
     .main__imagemConteudo{
@@ -31,10 +33,13 @@
     .main_imagem-individual {
         margin-top: .1rem;
     }
-
+    /*
     .telefone {
-        font-size:3rem;
+        font-size:10rem;
     }
+
+    */
+    
 }
 
 
